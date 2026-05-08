@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Suzete Beach - Casa de Temporada em Guarapari | Pé na Areia</title>
+  <meta name="description" content="Alugue a Casa Suzete Beach em Guarapari. Casa completa pra temporada, 3 quartos, quintal, churrasqueira, a 100m da praia. Reserve direto com o proprietário.">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --azul: #006d77;
+      --areia: #edf6f9;
+      --destaque: #e29578;
+      --whatsapp: #25D366;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; color: #1d3557; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    
+    header { background: var(--azul); color: white; padding: 18px 0; position: sticky; top: 0; z-index: 100; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.7rem; font-weight: 700; }
+    .logo span { color: var(--destaque); }
+    .menu a { color: white; text-decoration: none; margin-left: 20px; font-weight: 600; }
+    
+    .hero { 
+      background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://images.unsplash.com/photo-1572120360610-d971b9d7767c') center/cover; 
+      color: white; padding: 100px 0; text-align: center; 
+    }
+    .hero h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.1rem; margin-bottom: 25px; }
+    .btn { background: var(--whatsapp); color: white; padding: 14px 28px; border-radius: 50px; text-decoration: none; font-weight: 700; display: inline-block; }
+    
+    section { padding: 70px 0; }
+    section:nth-child(odd) { background: var(--areia); }
+    h2 { font-size: 2rem; text-align: center; margin-bottom: 40px; color: var(--azul); }
+    
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
+    .card { background: white; padding: 25px; border-radius: 10px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    .card i { font-size: 2.2rem; color: var(--destaque); margin-bottom: 12px; }
+    
+    .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .galeria img { width: 100%; height: 240px; object-fit: cover; border-radius: 8px; }
+    
+    form { max-width: 550px; margin: 0 auto; display: grid; gap: 12px; }
+    input, textarea, select { padding: 14px; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; }
+    button { background: var(--destaque); color: white; border: none; padding: 14px; border-radius: 8px; font-weight: 700; cursor: pointer; }
+    
+    .destaque-temporada { background: var(--destaque); color: white; padding: 15px; border-radius: 8px; text-align: center; margin: 30px 0; }
+    
+    footer { background: #1d3557; color: white; text-align: center; padding: 35px 0; }
+    .whats-float { position: fixed; bottom: 20px; right: 20px; background: var(--whatsapp); color: white; width: 58px; height: 58px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.9rem; z-index: 999; }
+    
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.8rem; }
+      .menu { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Casa Suzete <span>Beach</span></div>
+        <div class="menu">
+          <a href="#casa">A Casa</a>
+          <a href="#fotos">Fotos</a>
+          <a href="#temporada">Pacotes</a>
+          <a href="#reserva">Reservar</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Sua casa de praia em Guarapari</h1>
+      <p>Casa completa pra curtir o verão com a família e amigos, a 100m da areia</p>
+      <a href="https://wa.me/5527999999999?text=Oi! Quero alugar a Casa Suzete Beach pra temporada" class="btn">
+        <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section id="casa">
+    <div class="container">
+      <h2>Estrutura da Casa Suzete Beach</h2>
+      <div class="grid-3">
+        <div class="card">
+          <i class="fas fa-home"></i>
+          <h3>Casa Completa</h3>
+          <p>3 quartos, 2 banheiros, sala ampla. Acomoda até 10 pessoas</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-fire"></i>
+          <h3>Área de Lazer</h3>
+          <p>Quintal grande com churrasqueira, mesa e rede</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-car"></i>
+          <h3>Garagem</h3>
+          <p>2 vagas cobertas + espaço na frente</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-snowflake"></i>
+          <h3>Climatizada</h3>
+          <p>Ar-condicionado nos quartos e ventiladores</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-utensils"></i>
+          <h3>Cozinha Equipada</h3>
+          <p>Geladeira, fogão, micro-ondas, air fryer, louça completa</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-paw"></i>
+          <h3>Aceita Pet</h3>
+          <p>Traga seu amiguinho. Casa toda murada</p>
+        </div>
+      </div>
+      
+      <div class="destaque-temporada">
+        <strong>REGRA DE TEMPORADA:</strong> Aluguel mínimo de 5 diárias em Dez/Jan/Fev e feriados
+      </div>
+    </div>
+  </section>
+
+  <section id="fotos">
+    <div class="container">
+      <h2>Fotos da Casa</h2>
+      <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9" alt="Fachada da casa">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Sala de estar">
+        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea" alt="Quintal com churrasqueira">
+        <img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc" alt="Quarto">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3" alt="Cozinha">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d" alt="Área externa">
+      </div>
+    </div>
+  </section>
+
+  <section id="temporada">
+    <div class="container">
+      <h2>Pacotes de Temporada 2026/2027</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Réveillon</h3>
+          <p><strong>28/12 a 02/01</strong></p>
+          <p>5 diárias mínimas</p>
+          <p>A partir de R$ 800/noite</p>
+        </div>
+        <div class="card">
+          <h3>Janeiro</h3>
+          <p><strong>Alta temporada</strong></p>
+          <p>7 diárias mínimas</p>
+          <p>A partir de R$ 600/noite</p>
+        </div>
+        <div class="card">
+          <h3>Carnaval</h3>
+          <p><strong>13/02 a 18/02</strong></p>
+          <p>5 diárias mínimas</p>
+          <p>A partir de R$ 750/noite</p>
+        </div>
+      </div>
+      <p style="text-align: center; margin-top: 30px;">
+        <strong>Baixa temporada:</strong> A partir de R$ 350/noite com mínimo de 2 diárias
+      </p>
+    </div>
+  </section>
+
+  <section id="reserva">
+    <div class="container">
+      <h2>Reserve sua Data</h2>
+      <form action="https://formsubmit.co/seuemail@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="tel" name="whatsapp" placeholder="WhatsApp com DDD" required>
+        <input type="date" name="checkin" required>
+        <input type="date" name="checkout" required>
+        <select name="hospedes" required>
+          <option value="">Nº de pessoas</option>
+          <option value="2">2 pessoas</option>
+          <option value="4">4 pessoas</option>
+          <option value="6">6 pessoas</option>
+          <option value="8">8 pessoas</option>
+          <option value="10">10 pessoas</option>
+        </select>
+        <textarea name="mensagem" rows="3" placeholder="Tem pet? Algum evento especial?"></textarea>
+        <button type="submit">Solicitar Orçamento</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><strong>Casa Suzete Beach</strong> | Aluguel de Temporada em Guarapari - ES</p>
+      <p>Tratado direto com o proprietário - Sem taxa de site</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5527999999999?text=Olá! Quero alugar a Casa Suzete Beach" class="whats-float">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+          </html>
